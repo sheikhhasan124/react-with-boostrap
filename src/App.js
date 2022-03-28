@@ -3,6 +3,7 @@
 import React from 'react';
 import { Spinner } from 'react-bootstrap';
 import Btn from './Components/btn/Btn';
+import CardGroup2 from './Components/CardGroup/CardGroup';
 
 
 const App = () => {
@@ -14,6 +15,8 @@ const App = () => {
               <span className="visually-hidden">Loading...</span>
           </Spinner>
            <Btn />
+
+           <CardGroup2 />
 
            
         </div>
